@@ -1,0 +1,195 @@
+
+body{
+	background-color: lightskyblue;
+	margin: 0;
+    padding: 0;
+	overflow-x: hidden;
+}
+
+div{
+	font-family: 'mclaren', cursive;
+}
+
+
+header{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background-color: lightskyblue;
+	font-family: 'Lato', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+#acıklama{
+	margin: 0;
+}
+
+
+ul.navbar{
+	list-style-type: none;
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+li.navbarbutton{
+	display: inline-block;
+}
+li a.navbarbutton{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+a.navbarbutton:link{
+	color: white;
+}
+a.navbarbutton:visited {
+  color: white;
+}
+a.navbarbutton:hover {
+  color: white;
+  background-color: #111;
+}
+
+
+.footerlogo{
+	float: left;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.footermedia{
+	float: right;
+	margin-right: 6px;
+	margin-left: 0;
+}
+li.footerlink{
+	display: inline-block;
+}
+.footerhr{
+	display: block;
+	width: 100%;
+	margin: 0;
+	border: solid;
+	border-width: 2px;
+	color: black;
+}
+
+
+
+
+#hello{
+	width: 80%;
+	max-width: 950px;
+	margin: auto;
+}
+
+.intro{
+	margin-left: 9vw;
+}
+
+
+.realbody{
+	margin: 6vw;
+	margin-top: 0;
+}
+
+h1.uppercase{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1.baslık{
+	padding-bottom: 1.1vw;
+}
+
+
+img.compimages{
+	float: left;
+}
+
+img{
+	padding: 5px
+}
+
+
+ul.reflist{
+	list-style-type: square;
+}
+ul.refsublist{
+	list-style-type: disc;
+}
+a.refsublistitem:link , a.refsublistitem:visited{
+  color: rgb(0,0,238);
+  text-decoration: none;
+}
+a.refsublistitem:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#mylife{
+	padding-top: 4vw;
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+
+a.contentbar:link , a.contentbar:visited {
+	color:blue;
+	text-decoration: none;
+}
+
+a.contentbar:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.lifehr{
+	border-style: solid;
+	color: black;
+}
+
+.notext{
+	opacity: 0.4;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.indent{
+	text-indent: 35px;
+}
+
+.center{
+	text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+}
+
+.table td, .table th {
+  border: 1px;
+  border-color: blue;
+  border-style: solid;
+  padding: 8px;
+}
+
+.table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+#heart{
+	font-size: 30px;
+	padding-left: 7px;
+}
+
